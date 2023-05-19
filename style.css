@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .logo {
@@ -101,7 +101,8 @@ button {
 
 .icons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 10px;
 }
 .only-icon {
     display: flex;
@@ -158,23 +159,42 @@ button {
     margin: 30px;
     display: flex;
 }
-prueba de texto ________________________-
-.txt {
-   margin-right: 10px;
-}
-_______________________________________-
+
+/*PRUEBA TEXTO 2 PAGINA*/
 .contenedor-a {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding-right: 5%;
+    padding-left: 2%;
 }
 .descrp-app {
-    height: 350px;
-    width: 250px;
+    height: 10rem;
+    width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
 }
-.txt {
-    margin-right: 10px;
-    justify-items: right;
-    display:flex
-    flex-direction: column;
-    aline-items: :right
-    juctify-content
+.div txt h1 {
+    display: flex;
+    flex-direction: center;
+    font-size: x-large;
+    justify-content: right;
+    min-height: 45px;
+    width: 10rem;
+    padding-left: 5px;
 }
+
+.button {
+    background-color: #ff4b63;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5rem;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem var(--first-color);
+    position: relative;
+    display: inline-block;
+}
+
