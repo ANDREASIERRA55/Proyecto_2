@@ -95,4 +95,86 @@ button {
 
 .section_intro h2 {
     text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.only-icon {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.circle {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: inline-block; 
+    font-size: 1rem;
+}
+
+#circle-1 {
+    background-color: #E8E3F9;
+    display: flex;
+}
+#circle-2 {
+    background-color: #D5F2ED;
+    display: flex;
+}
+#circle-3 {
+    background-color: #F7E1E7;
+    display: flex;
+}
+#circle-4 {
+    background-color: #F7EFD9;
+    display: flex;
+}
+#circle-5 {
+    background-color: #DDF0F9;
+    display: flex;
+    font-size: larger;
+}
+.fa-solid {
+    color: #ff4b63;
+    font-size: 50px;
+    margin: 30px;
+    display: flex;
+}
+.fa-regular {
+    color: #ff4b63;
+    font-size: 50px;
+    margin: 30px;
+    display: flex;
+}
+.fa-sharp {
+    color: #ff4b63;
+    width: 350px;
+    height: 250px;
+    font-size: 50px;
+    margin: 30px;
+    display: flex;
+}
+prueba de texto ________________________-
+.txt {
+   margin-right: 10px;
+}
+_______________________________________-
+.contenedor-a {
+    display: flex;
+}
+.descrp-app {
+    height: 350px;
+    width: 250px;
+}
+.txt {
+    margin-right: 10px;
+    justify-items: right;
+    display:flex
+    flex-direction: column;
+    aline-items: :right
+    juctify-content
 }
