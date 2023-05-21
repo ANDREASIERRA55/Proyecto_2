@@ -1,0 +1,67 @@
+@import "./header.css";
+@import "./section_intro.css";
+@import "./phone.css";
+@import "./content_icons.css";
+@import 
+
+/* :root {
+    --first-color: #ff4b63; 
+    --second-color: #2d2d2d; 
+}
+
+
+body {
+    width: auto;
+    background-color: white;
+    padding: 0%;
+}
+.
+
+
+
+
+
+
+
+/*PRUEBA TEXTO 2 PAGINA*/
+/* .contenedor-a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding-right: 5%;
+    padding-left: 2%;    
+}
+
+.img2 {
+    float: left;
+}
+
+.descrp-app {
+    height: 10rem;
+    width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.boton2 { 
+    background-color: #ff4b63;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5rem;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem var(--first-color);
+    position: relative;
+    display: inline-block;
+
+}
+
+.txt {
+    font-size: 40px;
+}
+
+.contenedor-b {
+    
+} */

@@ -1,0 +1,73 @@
+.conten_icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 30px;
+    
+}
+
+.circle {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: inline-block; 
+    font-size: 30px;
+}
+
+.txt {
+    font-size: 40px;
+}
+
+#circle-1 {
+    background-color: #E8E3F9;
+    display: flex;
+    align-items: center;
+}
+
+#circle-2 {
+    background-color: #D5F2ED;
+    display: flex;
+    align-items: center;
+}
+
+#circle-3 {
+    background-color: #F7E1E7;
+    display: flex;
+    align-items: center;
+}
+
+#circle-4 {
+    background-color: #F7EFD9;
+    display: flex;
+    align-items: center;
+}
+
+
+.only-icon {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.circle {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: inline-block; 
+    font-size: 30px;
+    align-items: center;
+}
+
+
+#circle-5 {
+    background-color: #DDF0F9;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.txtcircle5 { 
+    font-size: 40px;
+}    
