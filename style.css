@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 
 }
 .section_intro h1{
@@ -31,11 +32,7 @@ body {
     justify-content: center;
     
 }
-.phone {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-}
+
 .row, .navbar{
     flex-direction: column;
 }
@@ -45,6 +42,25 @@ nav ul{
     justify-content: space-between;
     padding: 0%;
     list-style: none;
+}
+
+.boton1 { 
+    background-color: #ff4b63;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5rem;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem var(--first-color);
+    position: relative;
+    display: inline-block;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
 }
 
 nav ul li a{
@@ -73,7 +89,7 @@ header a {
     min-height: 45px;   
 }
 
-button {
+.buttonheader {
     background-color: #ff4b63;
     font-weight: bold;
     color: white;
@@ -86,23 +102,18 @@ button {
     display: inline-block;
 }
 
-.button {
-    background-color: white;
-    border-radius: 5rem;
-    color: #ff4b63;
-    border: 5px solid #ff4b63;
-}
-
 .section_intro h2 {
     text-align: center;
     padding-right: 5%;
     padding-left: 5%;
 }
 
-.icons {
+.conten_icons {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    font-size: 30px;
+
 }
 .only-icon {
     display: flex;
@@ -115,7 +126,8 @@ button {
     width: 10rem;
     border-radius: 50%;
     display: inline-block; 
-    font-size: 1rem;
+    font-size: 30px;
+    align-items: center;
 }
 
 #circle-1 {
@@ -137,28 +149,14 @@ button {
 #circle-5 {
     background-color: #DDF0F9;
     display: flex;
-    font-size: larger;
+    font-size: medium;
+    padding-left: 35px;
+    padding-top: 15px;
 }
-.fa-solid {
-    color: #ff4b63;
-    font-size: 50px;
-    margin: 30px;
-    display: flex;
-}
-.fa-regular {
-    color: #ff4b63;
-    font-size: 50px;
-    margin: 30px;
-    display: flex;
-}
-.fa-sharp {
-    color: #ff4b63;
-    width: 350px;
-    height: 250px;
-    font-size: 50px;
-    margin: 30px;
-    display: flex;
-}
+
+.txtcircle5 { 
+    font-size: 30px;
+}    
 
 /*PRUEBA TEXTO 2 PAGINA*/
 .contenedor-a {
@@ -166,8 +164,13 @@ button {
     flex-wrap: wrap;
     justify-content: right;
     padding-right: 5%;
-    padding-left: 2%;
+    padding-left: 2%;    
 }
+
+.img2 {
+    float: left;
+}
+
 .descrp-app {
     height: 10rem;
     width: 40rem;
@@ -175,17 +178,11 @@ button {
     flex-wrap: wrap;
     justify-content: right;
 }
-.div txt h1 {
-    display: flex;
-    flex-direction: center;
-    font-size: x-large;
-    justify-content: right;
-    min-height: 45px;
-    width: 10rem;
-    padding-left: 5px;
-}
 
-.button {
+
+
+
+.boton2 { 
     background-color: #ff4b63;
     font-weight: bold;
     color: white;
@@ -196,5 +193,11 @@ button {
     box-shadow: .5rem .5rem 1rem var(--first-color);
     position: relative;
     display: inline-block;
+
+}
+
+
+.txt {
+    font-size: 40px;
 }
 
